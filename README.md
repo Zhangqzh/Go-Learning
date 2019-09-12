@@ -190,7 +190,7 @@ func TestReverse(t *testing.T) {
 	}
 }
 ```
-运行该测试
+运行该测试  
 ![](http://pxcpbo9xv.bkt.clouddn.com/06.png)  
 ## **远程包**
 `go`工具可从远程代码库自动获取包  
@@ -201,7 +201,7 @@ $ $GOPATH/bin/hello
 Hello, Go examples!
 ```
 若指定的包不在工作空间中，`go get`就会将它放到`GOPATH`指定的第一个工作空间内。（若该包已存在，`go get`就会跳过远程获取，其行为与`go install`相同）    
-执行结果:
+执行结果:  
 ![](http://pxcpbo9xv.bkt.clouddn.com/07.png)  
 
 工作目录：
