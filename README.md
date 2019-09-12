@@ -200,9 +200,10 @@ $ go get github.com/golang/example/hello
 $ $GOPATH/bin/hello
 Hello, Go examples!
 ```
-若指定的包不在工作空间中，`go get`就会将它放到`GOPATH`指定的第一个工作空间内。（若该包已存在，`go get`就会跳过远程获取，其行为与`go install`相同）  
+若指定的包不在工作空间中，`go get`就会将它放到`GOPATH`指定的第一个工作空间内。（若该包已存在，`go get`就会跳过远程获取，其行为与`go install`相同）    
 执行结果:
-![](http://pxcpbo9xv.bkt.clouddn.com/07.png)
+![](http://pxcpbo9xv.bkt.clouddn.com/07.png)  
+
 工作目录：
 ```
 bin/
