@@ -1,0 +1,7 @@
+Hello go world! 
+func Arg
+func Arg(i int) string
+Arg returns the i'th command-line argument. Arg(0) is the first remaining argument after flags have been processed.
+func Args
+func Args() []string
+Args returns the non-flag command-line arguments.
