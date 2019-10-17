@@ -1,11 +1,3 @@
----
-title: CLI 命令行实用程序开发实战 - Agenda
-date: 2019-10-17 15:24:24
-tags:
----
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
----
 
 # 准备工作
 ## 1. 概述
