@@ -1,4 +1,5 @@
 
+
 # 准备工作
 ## 1. 概述
 命令行实用程序并不是都象 cat、more、grep 是简单命令。go 项目管理程序，类似 java 项目管理 maven、Nodejs 项目管理程序 npm、git 命令行客户端、 docker 与 kubernetes 容器管理工具等等都是采用了较复杂的命令行。即一个实用程序同时支持多个子命令，每个子命令有各自独立的参数，命令之间可能存在共享的代码或逻辑，同时随着产品的发展，这些命令可能发生功能变化、添加新命令等。因此，符合 OCP 原则 的设计是至关重要的编程需求。  
@@ -300,25 +301,25 @@ func init() {
 }
 
 ```  
-完整代码在[Github]()
+完整代码在[Github](https://github.com/Zhangqzh/Go-Learning/tree/master/hw7)
 ## 实验结果
-`./agenda`
-![](https://www.z4a.net/images/2019/10/17/137e614d97e11aeafb.png)
+`./agenda`  
+![](https://www.z4a.net/images/2019/10/17/137e614d97e11aeafb.png)  
 `./agenda register -h`  
 ![](https://www.z4a.net/images/2019/10/17/145f737d1a5a3113b4.png)   
 指令提示  
-![](https://www.z4a.net/images/2019/10/17/7ac1cdf713a58b59c.png)  
-`./agenda register -n -p -e -t`
-![](https://www.z4a.net/images/2019/10/17/88ae6032f92793486.png)
-`./agenda log_in -h`
-![](https://www.z4a.net/images/2019/10/17/9426b8502dab98fd8.png)
+![](https://www.z4a.net/images/2019/10/17/7ac1cdf713a58b59c.png)   
+`./agenda register -n -p -e -t`  
+![](https://www.z4a.net/images/2019/10/17/88ae6032f92793486.png)  
+`./agenda log_in -h`  
+![](https://www.z4a.net/images/2019/10/17/9426b8502dab98fd8.png)  
 `./agenda log_in -n -p`  
 密码正确  
 ![](https://www.z4a.net/images/2019/10/17/105b4270fae0e29005.png)  
 密码错误  
-![](https://www.z4a.net/images/2019/10/17/11bf4e2cee95d62da3.png)
+![](https://www.z4a.net/images/2019/10/17/11bf4e2cee95d62da3.png)  
 
-User.txt
-![](https://www.z4a.net/images/2019/10/17/15604aa020a8098797.png)
-Agenda.log
-![](https://www.z4a.net/images/2019/10/17/12dfd5a6ccf2ba3c36.png)
+User.txt  
+![](https://www.z4a.net/images/2019/10/17/15604aa020a8098797.png)  
+Agenda.log  
+![](https://www.z4a.net/images/2019/10/17/12dfd5a6ccf2ba3c36.png)  
