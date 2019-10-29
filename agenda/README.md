@@ -1,11 +1,4 @@
----
-title: CLI 命令行实用程序开发实战 - Agenda
-date: 2019-10-17 15:24:24
-tags:
----
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_page_pv">本文总阅读量<span id="busuanzi_value_page_pv"></span>次</span>
----
+**此文件是在虚拟机上跑用的，所以import的地址和Go_online不太一样**
 目录：
 - cobra用法解释
 - Linux虚拟机里开发使用教程
